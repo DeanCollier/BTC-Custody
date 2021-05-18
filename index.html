@@ -73,10 +73,66 @@
 
     <div>
     <h2>Private Key Storage</h2>
-    <p>Now that we know about our private key and wallet, how should be make sure that our private key doesn't get stolen or lost?</p>
+    <p>Now that we know about our private key and wallets, how should be make sure that our private key doesn't get stolen or lost?</p>
+    <p>There are a few different options for wallets, each of which stores your private key with different levels of security.</p>
+    <h4>Exchange Wallet: </h4>
+    <p>
+        <ul>
+            <li>Keeping your btc on an exchange can be convenient if you are a trader or want immediate access to selling your btc.</li>
+            <li>In this case, the exchange itself holds the private key, this means your keys are susceptible to exchange hacks.</li>
+            <li>This may be appropriate for some people with smaller amounts of btc.</li>
+        </ul>
+    </p>
+    <h4>Desktop/Mobile Wallet: </h4>
+    <p>
+        <ul>
+            <li>This is a wallet installed on your personal computer or smartphone.</li>
+            <li>Your private key is stored on that device, so it is in your possession</li>
+            <li>This may be better in the sense that your own your private key, but is still susceptible to attacks by hackers accessing your device.</li>
+        </ul>
+    </p>
+    <h4>Hardware Wallet</h4>
+    <p>
+        <ul>
+            <li>This is a device that stores your private key and is not connected to the internet.</li>
+            <li>This is the safest of the three key storage options.</li>
+            <li>Your keys are in your full custody and it is your responsiblity to safegaurd them.</li>
+        </ul>
+    </p>
     </div>
+    <hr>
+
+    <div>
+        <section>
+            <div style="background-color: lightsalmon; border: 1px solid black; text-align: center;">
+                <header>
+                <h2>How Do You Want to Store Your BTC?</h2>
+                </header>
+                <form>
+                    <fieldset style="text-align: center; border: none;">
+                        <legend><b>Storage Options</b></legend>
+                        <p>
+                            <input type="radio" name="storage type" id="Exchange Wallet" value="Exchange Wallet" />
+                            <label for="Exchange Wallet">Exchange Wallet</label>
+                        </p>
+                        <p>
+                            <input type="radio" name="storage type" id="Desktop/Mobile Wallet" value="Desktop/Mobile Wallet" />
+                            <label for="Desktop/Mobile Wallet">Desktop/Mobile Wallet</label>
+                        </p>
+                        <p>
+                            <input type="radio" name="storage type" id="Hardware Wallet" value="Hardware Wallet" />
+                            <label for="Hardware Wallet">Hardware Wallet</label>
+                        </p>
+                        <p>
+                            <button type="submit">Submit Answer</button>
+                        </p>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+    </div>
+    <hr>
     <br>
-    
     <footer>
         <p>BTC Donation Address: 31kV93oaNxrcSUn9mfpGTLeBZcfygrdYpH</p>
     </footer>
